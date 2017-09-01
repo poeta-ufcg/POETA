@@ -1,3 +1,5 @@
-# POETA- Portifólio Eletrônico Academico. 
-## #Stable
-### [POETA link](http://poeta-ufcg.herokuapp.com/).
+# POETA- Portfólio Eletrônico Temporal e Ativo. 
+### [POETA link](https://poeta-ufcg.github.io/POETA/).
+O projeto POETA traz como proposta a utilização de avaliação autêntica no ensino através de portfólios. Ele permite uma visualização mais clara dos dados institucionais, oferecendo suporte a tomadas de decisão, tanto por parte do aluno quanto por parte do professor. Os dados institucionais são armazenados em um banco de dados, que por sua vez alimenta a visualização. O POETA considera a existência de três portfólios interdependentes: da disciplina, do aluno e do professor. A visualização dos dados gerados durante a aplicação de uma disciplina atende a um dos requisitos do portfólio correspondente: analisar o andamento de um curso e aprimorar a qualidade de seu design instrucional.
+A proposta deste trabalho é o desenvolvimento de uma ferramenta para visualização de dados gerados pelo Learning Analytics (tecnologia educacional que coleta, mede, analisa e divulga dados de como os alunos se comportam nos ambientes virtuais de aprendizagem), objetivando o aprimoramento do Design Instrucional de um curso ou disciplina.
+
