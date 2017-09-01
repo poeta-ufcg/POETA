@@ -1,0 +1,127 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: Helvetica, Arial;
+}
+body > section {
+    height: 100%;
+    width: 100%;
+}
+
+#chart {
+    width: 90%;
+    height: 150px;
+    background: rgb(218, 218, 218);
+    opacity: 0.9;
+    border-radius: 5px;
+    border: 1px solid #2b2b2b;
+}
+
+#chart line {
+    stroke: #2b2b2b;
+}
+
+#chart line.vertical-marker.now {
+    stroke: #c00;
+}
+
+rect.interval.darkblue {
+    fill: #0000CD;
+    stroke: #0000CD;
+}
+
+rect.interval.lightblue {
+    fill: #1E90FF;
+    stroke: #1E90FF;
+}
+
+rect.interval.darkred {
+    fill: #B22222;
+    stroke: #B22222;
+}
+
+rect.interval.ligthred {
+    fill: #FF6347;
+    stroke: #FF6347;
+}
+
+rect.interval.darkorange {
+    fill: #FF4500;
+    stroke: #FF4500;
+}
+
+rect.interval.lightorange {
+    fill: #FFA500;
+    stroke: #FFA500;
+}
+
+rect.interval.darkgreen {
+    fill: #006400;
+    stroke: #006400;
+}
+
+rect.interval.lightgreen {
+    fill: #32CD32;
+    stroke: #32CD32;
+}
+
+rect.interval.darkpurple {
+    fill: #800080;
+    stroke: #800080;
+}
+
+rect.interval.lightpurple {
+    fill: #BA55D3;
+    stroke: #BA55D3;
+}
+
+rect.interval.darkgold {
+    fill: #B8860B;
+    stroke: #B8860B;
+}
+
+rect.interval.lightgold {
+    fill: #DAA520;
+    stroke: #DAA520;
+}
+
+rect.interval.sobreposicao {
+    fill: #c0c0c0;
+    stroke: #c0c0c0;
+}
+
+circle.blue-dot {
+    fill: blue;
+}
+
+/* Override d3tip */
+
+.d3-tip {
+    background: white;
+    color: black;
+}
+
+/* Tiny Flex Grid */
+
+[flex] {
+    display: flex;
+}
+[flex-fill] {
+    flex: 1;
+}
+[flex-full-center] {
+    align-items: center;
+    justify-content: center;
+}
+[flex-direction=column] {
+    flex-direction: column;
+}
+[flex-direction=row] {
+    flex-direction: row;
+}
+[flex-size="40"] {
+    flex: 40;
+}
+[flex-size="60"] {
+    flex: 60;
+}

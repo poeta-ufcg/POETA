@@ -1,0 +1,33 @@
+.balao2{
+    background: #ffffff;
+    border-radius: 15px;
+    border: 6px solid #000000;
+    width: 130px;
+    height: 19px;
+	text-align: center;
+    position: relative;
+}
+.balao2:after{
+
+    content: "";
+
+    width: 0;
+    height: 0;
+
+    position: absolute;
+
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #000;
+
+    bottom: -20px;
+    left: 20%;
+}
+
+.qtdDesistentes{
+  width: 130px;
+  height: 19px;
+  position: relative;
+  background: transparent;
+  color: black;
+}
